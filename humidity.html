@@ -11,37 +11,37 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-       <a class="navbar-brand" href="#">Latitude</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
-             </li>
-             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="dropdown-item" href="#">Max Temperature</a>
-                   <a class="dropdown-item" href="#">Humidity</a>
-                   <a class="dropdown-item" href="#">Cloudiness</a>
-					<a class="dropdown-item" href="#">Wind Speed</a>
-                </div>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
-             </li>
-          </ul>
-          
-       </div>
-    </nav>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Plots
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+               </div>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="data.html">Data</a>
+            </li>
+         </ul>
+         
+      </div>
+   </nav>
 
     <div class="jumbotron jumbotron-fluid text-center">
        <h1 class="display-4">City Latitude vs. Humidity&nbsp;</h1>
@@ -57,8 +57,8 @@
              <div class="card">
                 <div class="card-body">
                    <h3>Latitude and Humidity&nbsp;&nbsp;</h3>
-                   <p>In this visualization, we can see that max temperature in cities goes up as we move towards the equator and eventually plateaus around 90 degrees, with a few outliers.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
-                   <p>These observations were made in January, so as we can see the curve is not a perfect rainbow from one end of the latitude scale to the other.&nbsp; This is likely due to these observations being taken during what is typically summer in the Southern Hemisphere, so the high temperatures are higher than what we see in the Northern latitudes, which are in winter.&nbsp;&nbsp;</p>
+                   <p>This visualization is not as clear cut as max temperature.&nbsp; These humdiity observations taken in January show that there appear to be more cities with high humditiy in the Northern latitudes.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+                   <p>Perhaps this a result of the Northern latitudes being slightly more rainy in the winter months.&nbsp; Ineterstingly, there are also several Northern cities that appear to have 0% humidity.&nbsp; It is difficult to tell if that is an accurate measurement, or if there was no data collected there.&nbsp; &nbsp;&nbsp;</p>
                   
                </div>
              </div>
